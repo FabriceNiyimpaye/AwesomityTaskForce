@@ -21,12 +21,14 @@
   <div class="container-fluid" style="height: fit-content;">
     <div id=" carouselExample " class="carousel slide" data-ride="" data-interval="9000">
         <div class=" row w-100 mx-auto" role="listbox" style="padding-top: 100px;">
-
+            <?php if(!$restaurants) { ?>
+            <h2>No Results Found</h2>
+            <?php } else {?>
             <?php foreach ($restaurants as $restaurant): ?>
             <div class="carousel-item col-md-3  active" style=" background-color: transparent; padding-top: 10px;">
                <div class="panel panel-default">
                   <div class="panel-thumbnail">
-                    <a href="/task_force_2/restaurants/details/<?= $restaurant->restaurant->R->res_id?>" title="image 1" class="thumb">
+                    <a href="/AwesomityTaskForce/restaurants/details/<?= $restaurant->restaurant->R->res_id?>" title="image 1" class="thumb">
                       <?php $thumb = explode("?", $restaurant->restaurant->thumb);?>
                       <img class="img-fluid d-block" src="<?= $thumb[0] ?>" height = "482px" width= "361px" alt="slide 1" style="margin-bottom: 20px;">
                       <div class="kugasima" style="margin-top: 5px;">
@@ -41,6 +43,7 @@
                 </div>
             </div>
             <?php endforeach; ?>
+            <?php } ?>
             
      <button type="button" class="btn btn-primary-broke" style="margin-bottom: 50px;">
       <h4 class="text" style="font-weight: normal; font-size: small;" >Explore More</h4> 

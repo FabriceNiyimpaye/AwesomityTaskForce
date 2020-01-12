@@ -18,8 +18,8 @@
                 }
                 
                 if($response->status == 'success'){
-                    
-                      if($response->location_suggestions[0]->id){
+                
+                      if($response->location_suggestions != []){
                           $city_id = $response->location_suggestions[0]->id;
           
                           $restaurantresponse = json_decode($this->TomatoApi('https://developers.zomato.com/api/v2.1/search?entity_id='.$city_id.'&entity_type=city'));
@@ -33,7 +33,7 @@
                           $this->set('restaurants', $restaurantresponse->restaurants);
                       }
                       else{
-                         // echo "City not found";
+                        $this->set('restaurants', False);
                       }
                   }
             }
