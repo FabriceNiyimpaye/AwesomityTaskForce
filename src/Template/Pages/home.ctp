@@ -44,9 +44,9 @@
               <div class="panel panel-default" >
                  <div class="panel-thumbnail" >
                    <a href="#" title="image 1" class="thumb">
-                     <img class="img-fluid d-block" src="./imgs/food.png" alt="slide 1" style="margin-bottom: 20px;">
-                     <div class="kugasima" style="margin-top: 5px;">
-                       <img class="resto-item" src="./imgs/restaurant.png" alt="" width="50px" height="50px">
+                   <?= $this->Html->image('food.png', array('class' => 'img-fluid d-block', 'style' =>'margin-bottom: 20px;')) ?>
+                      <div class="kugasima" style="margin-top: 5px;">
+                        <?= $this->Html->image('restaurant.png', array('class' => 'resto-item', 'height' =>'50px', 'width' => '50px')) ?>
                        <div class="right">
                         <p class="light-text"> <b><b> <b>KUGASIMA CAFFEE</b></b></b> <br> $$$ - Kimihurura </p> 
                        </div>
@@ -60,9 +60,9 @@
             <div class="panel panel-default" >
                <div class="panel-thumbnail" >
                  <a href="#" title="image 1" class="thumb">
-                   <img class="img-fluid d-block" src="./imgs/food.png" alt="slide 1" style="margin-bottom: 20px;">
-                   <div class="kugasima" style="margin-top: 5px;">
-                     <img class="resto-item" src="./imgs/restaurant.png" alt="" width="50px" height="50px">
+                 <?= $this->Html->image('food.png', array('class' => 'img-fluid d-block', 'style' =>'margin-bottom: 20px;')) ?>
+                      <div class="kugasima" style="margin-top: 5px;">
+                        <?= $this->Html->image('restaurant.png', array('class' => 'resto-item', 'height' =>'50px', 'width' => '50px')) ?>
                      <div class="right">
                       <p class="light-text"> <b><b> <b>KUGASIMA CAFFEE</b></b></b> <br> $$$ - Kimihurura </p> 
                      </div>
@@ -76,9 +76,9 @@
           <div class="panel panel-default">
              <div class="panel-thumbnail" >
                <a href="#" title="image 1" class="thumb">
-                 <img class="img-fluid d-block" src="./imgs/food.png" alt="slide 1" style="margin-bottom: 20px;">
-                 <div class="kugasima" style="margin-top: 5px;">
-                   <img class="resto-item" src="./imgs/restaurant.png" alt="" width="50px" height="50px">
+               <?= $this->Html->image('food.png', array('class' => 'img-fluid d-block', 'style' =>'margin-bottom: 20px;')) ?>
+                      <div class="kugasima" style="margin-top: 5px;">
+                        <?= $this->Html->image('restaurant.png', array('class' => 'resto-item', 'height' =>'50px', 'width' => '50px')) ?>
                    <div class="right">
                     <p class="light-text"> <b><b> <b>KUGASIMA CAFFEE</b></b></b> <br> $$$ - Kimihurura </p> 
                    </div>
@@ -92,9 +92,9 @@
         <div class="panel panel-default"style="" >
            <div class="panel-thumbnail" >
              <a href="#" title="image 1" class="thumb">
-               <img class="img-fluid d-block" src="./imgs/food.png" alt="slide 1" style="margin-bottom: 20px;">
-               <div class="kugasima" style="margin-top: 5px;">
-                 <img class="resto-item" src="./imgs/restaurant.png" alt="" width="100px" height="100px">
+             <?= $this->Html->image('food.png', array('class' => 'img-fluid d-block', 'style' =>'margin-bottom: 20px;')) ?>
+                      <div class="kugasima" style="margin-top: 5px;">
+                        <?= $this->Html->image('restaurant.png', array('class' => 'resto-item', 'height' =>'50px', 'width' => '50px')) ?>
                  <div class="right">
                   <p class="light-text"> <b><b> <b>KUGASIMA CAFFEE</b></b></b> <br> $$$ - Kimihurura </p> 
                  </div>

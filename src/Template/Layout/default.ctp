@@ -18,9 +18,9 @@
     <ul class="nav justify-content-end">
         <li class="nav-item">
             <?= $this->Html->link('Home', array('controller' => 'Pages', 'action' => 'index'), array('class' => 'nav-link')) ?>
-          </li>
+        </li>
         <li class="nav-item">
-            <a class="nav-link" href="./restaurants.html">Restaurants</a>
+            <?= $this->Html->link('Restaurants', array('controller' => 'Pages', 'action' => 'index'), array('class' => 'nav-link')) ?>
           </li>
         <li class="nav-item">
             <a class="nav-link"href="">Contact</a>

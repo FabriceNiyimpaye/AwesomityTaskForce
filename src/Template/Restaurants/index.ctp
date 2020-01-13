@@ -1,14 +1,12 @@
 <div class="container" style="margin-top: 300px; height: 100px;">
         <div class="centered">
             <div class="centered-input" style="width: 400%;"><h1 style="font-size: 50px;
-                margin-left: 300px;"> <b> Find Nearby Restaurants </b></h1>
+                margin-left: 300px;"> <b> 20 Nearby Restaurants </b></h1>
             </div></h1></div>
       
             <div class="centered-input">
               <div class="input-group input-group-lg">
-                  <input type="text" class="card form-control material-icons" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"> <i class="material-icons">
-                    search
-                    </i>
+                  <input type="text" class="card form-control material-icons" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                 </div>
           </div>
       </div>
@@ -32,7 +30,7 @@
                       <?php $thumb = explode("?", $restaurant->restaurant->thumb);?>
                       <img class="img-fluid d-block" src="<?= $thumb[0] ?>" height = "482px" width= "361px" alt="slide 1" style="margin-bottom: 20px;">
                       <div class="kugasima" style="margin-top: 5px;">
-                        <img class="resto-item" src="./imgs/restaurant.png" alt="" width="50px" height="50px">
+                        <?= $this->Html->image('restaurant.png', array('class' => 'resto-item', 'height' =>'50px', 'width' => '50px')) ?>
                         <div class="right">
                           <p class="light-text"> <b><b> <b><?= $restaurant->restaurant->name ?></b></b></b> <br> <?= $restaurant->restaurant->location->city ?> </p> 
                         </div>

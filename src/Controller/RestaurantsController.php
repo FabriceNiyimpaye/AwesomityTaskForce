@@ -13,7 +13,7 @@
             
                 $response = json_decode($this->TomatoApi('https://developers.zomato.com/api/v2.1/cities?q='.$query));
                 if(!$response){
-                    echo "Yoo sucker,  connect to the internet for the api to work";
+                    echo "Connect to the internet for the api to work";
                     die();
                 }
                 
@@ -24,7 +24,7 @@
           
                           $restaurantresponse = json_decode($this->TomatoApi('https://developers.zomato.com/api/v2.1/search?entity_id='.$city_id.'&entity_type=city'));
                           if(!$response){
-                            echo "Yoo sucker,  connect to the internet for the api to work";
+                            echo "Connect to the internet for the api to work";
                             die();
                             }
                          // if($restaurantresponse->results_found > 0){
@@ -44,7 +44,7 @@
            
             $response = json_decode($this->TomatoApi('https://developers.zomato.com/api/v2.1/restaurant?res_id='.$id));
             if(!$response){
-                echo "Yoo sucker,  connect to the internet for the api to work";
+                echo "Connect to the internet for the api to work";
                 die();
             }
 
@@ -54,12 +54,12 @@
         public function ratings($id){
             $response = json_decode($this->TomatoApi('https://developers.zomato.com/api/v2.1/reviews?res_id='.$id));
             if(!$response){
-                echo "Yoo sucker,  connect to the internet for the api to work";
+                echo "Connect to the internet for the api to work";
                 die();
             }
             $res = json_decode($this->TomatoApi('https://developers.zomato.com/api/v2.1/restaurant?res_id='.$id));
             if(!$response){
-                echo "Yoo sucker,  connect to the internet for the api to work";
+                echo "Connect to the internet for the api to work";
                 die();
             }
             $this->set('res_id', $id)->set('details', $response->user_reviews)->set('res', $res);

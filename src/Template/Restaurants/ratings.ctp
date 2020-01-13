@@ -58,28 +58,28 @@
                   <span >Breakfast</span> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
                   <h5 class="menu-light-text">
-                    <span >IBIRAHA</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <span >IBIRAHA</span>...................................................................
                     <span class="menu-price" >50 Frw </span>
                   </h5>
                   <h5 class="menu-light-text">
-                    <span >IRINDAZI</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+                    <span >IRINDAZI</span>..................................................................
                     <span class="menu-price" >100 Rfw</span>
                   </h5>
                   <h5 class="menu-light-text">
-                    <span >IBISHUBATAYI</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;
+                    <span >IBISHUBATAYI</span>......................................................
                     <span class="menu-price" >200 Rfw</span>
                   </h5>
                   <h5 class="menu-light-text">
-                    <span >BANJIYA</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+                    <span >BANJIYA</span>...................................................................
                     <span class="menu-price" >50 Rfw</span>
                   </h5>
                   <h5 class="menu-light-text">
-                    <span >SAMBUSA</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <span >SAMBUSA</span>...............................................................
                     <span class="menu-price" >200 Rfw</span>
                   </h5>
 
                 <h5 class="menu-light-text">
-                  <span >ROLEX</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+                  <span >ROLEX</span>........................................................................
                   <span class="menu-price" >700 Rfw</span>
                 </h5> <br>
 
@@ -87,19 +87,19 @@
                   <span >Lunch</span>
                   <br>
                   <h5 class="menu-light-text">
-                    <span >IMVANGE</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+                    <span >IMVANGE</span>................................................................
                     <span class="menu-price" >600 Rfw</span>
                   </h5>
                   <h5 class="menu-light-text">
-                    <span >CAPATI NIBISHYOMBO</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;
+                    <span >CAPATI NIBISHYOMBO</span>.................................
                     <span class="menu-price" >900 Rfw</span>
                   </h5>
                   <h5 class="menu-light-text">
-                    <span >UMUCERI NISOSI</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp;
+                    <span >UMUCERI NISOSI</span>..............................................
                     <span class="menu-price" >1000 Rfw</span>
                   </h5>
                   <h5 class="menu-light-text">
-                    <span >INYAMA</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;
+                    <span >INYAMA</span>...................................................................
                     <span class="menu-price" >800 Rfw</span>
                   </h5>
                 </h3>
